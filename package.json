@@ -8,22 +8,27 @@
     "extends": "airbnb"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node --presets env,flow lib",
-    "build": "babel lib -d dist --presets env,flow",
+    "dev":
+      "nodemon --exec babel-node --presets=env,flow --plugins=transform-runtime lib",
+    "build": "babel lib -d dist --presets=flow,env --plugins=transform-runtime",
     "serve": "pm2 start dist/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
     "flow-bin": "^0.57.3",
     "nodemon": "^1.12.1",
     "prettier-eslint": "^8.2.1"
   },
   "dependencies": {
     "apollo-server-express": "^1.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "graphql": "^0.11.7",

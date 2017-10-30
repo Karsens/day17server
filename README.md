@@ -37,9 +37,10 @@ It seems to be a save server, because I kind of create the secret pushtoken as a
 
 44: Proud 
 
-Now: add avatar field, show changes of server in video, create server remote in video, work ahead
 Tuesday morning 5:00 - 7:30 ——> setup app boilerplate & make plan for screens on functions in component level.
+
 Tuesday afternoon 13:00 - 20:00 ———> create whole app, try to fix as many problems as possible of the todo list here
+
 Wednesday 5:00 - 10:00 work, then buy kite & fix chicken loop, then work again or kitesurf !!!
 Thursday-Sunday: depends on the wind, but try to fix these 10 new things!
 
