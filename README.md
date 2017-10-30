@@ -33,3 +33,45 @@ Client:
 
 It seems to be a save server, because I kind of create the secret pushtoken as a secret device id, so those queries are only accessible for the person that knows this ID. 
 # day17server
+
+
+44: Proud 
+
+Now: add avatar field, show changes of server in video, create server remote in video, work ahead
+Tuesday morning 5:00 - 7:30 ——> setup app boilerplate & make plan for screens on functions in component level.
+Tuesday afternoon 13:00 - 20:00 ———> create whole app, try to fix as many problems as possible of the todo list here
+Wednesday 5:00 - 10:00 work, then buy kite & fix chicken loop, then work again or kitesurf !!!
+Thursday-Sunday: depends on the wind, but try to fix these 10 new things!
+
+1. notifications working & testing 
+	just the 3 steps I already know, see document ~1 hour
+
+2. redux persist user object
+	look at twitter boilerplate, test, if it doesn’t work, then look at chatty boilerplate. If that doesn’t work, then go to documentation. 
+	Then try using the redux store instead of the aSyncstorage directly. ~2 hours max per attempt!
+
+3. Variables in queries
+	look at twitter clone tutorial again, but try to find it in GitHub docs!
+
+4. FB & Google data use
+	a) Explore the apis 
+	b) Think about things I could do with it
+	c) Make a nice profile picture from google login 
+5. typing everything (flow): just keep this in mind all the time!
+
+6. location representation
+	Create function that calculates distance between two coords
+	Create function that calculates city from coords (look back at Communify thingy… I had something)
+
+7. much more data to view in UI… 
+	Play with background colours of cards to represent proudness-level
+	Add onPress handler that changes color
+	Add smart ordering function (yes, I have to go back to the server sometimes probably)
+
+8. test functionality on real devices with roommates, 
+	
+9. go through iTunes connect and Google Play Console.
+
+10. build more complex screens
+
+If I don’t succeed with proud, then try magic and kitetik in the weeks after and delay the rest!
