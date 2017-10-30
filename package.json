@@ -8,13 +8,14 @@
     "extends": "airbnb"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node --presets env lib",
-    "build": "babel lib -d dist --presets env",
+    "dev": "nodemon --exec babel-node --presets env,flow lib",
+    "build": "babel lib -d dist --presets env,flow",
     "serve": "pm2 start dist/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
     "flow-bin": "^0.57.3",
